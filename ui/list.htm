@@ -1,0 +1,40 @@
+<div class="page-title-wrapper">
+    <h1 class="page-title">
+        <span class="base" data-ui-id="page-title-wrapper">Cursussen</span>    </h1>
+    </div>
+    <div class="std">
+
+	<table class="data-table">
+		<tr><th>Cursus</th><th>Plaatsen</th><th>Datum</th></tr>
+		<set count="{{ count(@pages) }}" />
+		<repeat group="{{ @pages }}" value="{{ @page }}" counter="{{ @counter }}">
+
+		<tr {{ @counter%2?'class="odd"':'' }}>
+			<td>
+				<a href="{{ @BASE }}/{{ @page.slug }}">{{ @page.title }}</a><br />
+			</td>
+			<td>{{ @page.available?'Vol':'Beschikbaar' }}</td>
+			<td>
+<!--	Locale werkt niet, alleen engelse maanden
+	{{ @page.updated?date(@time_format2,@page.updated):'&nbsp;' }} 	
+-->
+			<check if="{{ @page.updated }}">
+	    		{{ '{0,date,long}',@page.updated | format }}
+			</check>
+
+			</td>
+		</tr>
+		</repeat>
+	</table>
+
+</div></div>
+<div class="homepage-news">
+	<br/><br/><br/>
+	Door in de lijst op de gewenste cursus te klikken krijgt u meer informatie over de inhoud van de cursus en kunt u zich direct online aanmelden. <br>
+	In overleg is het mogelijk deel te nemen aan onze ontbijt- of avondsessies. <br>
+	Ook kunnen wij deze cursussen bij u op locatie verzorgen. Al onze cursussen verzorgen wij kosteloos.<br>
+	<br>
+	<p> 
+	Is de gewenste cursus vol, heeft u behoefte aan een training die niet vermeld is of wilt u een training op locatie, mail dan uw wensen naar <a href="mailto:training@maaslandgroep.nl" >training@maaslandgroep.nl</a>
+	</p>
+</div>

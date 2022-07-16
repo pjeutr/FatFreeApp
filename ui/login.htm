@@ -1,0 +1,32 @@
+<div class="main-container col2-left-layout">
+<div class="main">
+	<div class="col-main">
+	<h1>Login</h1>
+
+	<form method="post" action="{{ @BASE }}/login" class="login">
+		<check if="{{ isset(@message) }}">
+		<p class="message">{{ @message }}</p>
+		</check>
+		<p>
+			<label for="user_id"><small>Gebruikersnaam</small></label><br />
+			<input id="user_id" name="user_id" type="text" {{ isset(@POST.user_id)?('value="'.@POST.user_id.'"'):'' }} />
+		</p>
+		<p>
+			<label for="password"><small>Wachtwoord</small></label><br />
+			<input id="password" name="password" type="password" />
+		</p>
+
+		<p>
+			<input class="action primary" type="submit" />
+		</p>
+	</form>
+
+	</div>
+
+	<div class="col-left sidebar">
+
+
+
+	</div>
+</div>
+</div>

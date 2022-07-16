@@ -1,7 +1,8 @@
 <?php
 
 // Retrieve instance of the framework
-$f3=require('lib/base.php');
+$f3=require('fatfree-core/base.php');
+//$f3=require('lib/base.php');
 
 // Initialize CMS
 $f3->config('app/config.ini');

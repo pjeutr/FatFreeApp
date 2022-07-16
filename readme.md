@@ -1,5 +1,7 @@
 #aangepaste fatfree demo
 
+wget -E -H -k -K -p https://www.maaslandgroep.nl/
+
 sqlite3 db/cms.db
 
 ## inlog in app/config.ini

@@ -1,0 +1,187 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Maasland Groep  | Toegangsoplossingen &amp; Elektronische Toegangsbeveiliging - Maasland Groep</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="viewport" content="width=device-width">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<link rel="icon" href="https://www.maaslandgroep.nl/media/favicon/default/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://www.maaslandgroep.nl/media/favicon/default/favicon.ico" type="image/x-icon" />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'https://www.maaslandgroep.nl/js/blank.html';
+    var BLANK_IMG = 'https://www.maaslandgroep.nl/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+
+<script type="text/javascript">
+	var $j = jQuery.noConflict();
+	$j(document).ready(function() {
+		$j("a.fancybox").fancybox({
+			'overlayShow'	: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic'
+		});
+		$j(".tabs").tabs();
+	});
+</script>
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/js/fancybox/jquery.fancybox-1.3.4.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/css/jquery-ui-1.8.14.custom.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/css/overrides/tablet.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/css/overrides/mobile.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/css/print.css" media="print" />
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/lib/ccard.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/prototype/validation.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/varien/js.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/varien/form.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/varien/menu.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/mage/translate.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/mage/cookies.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/js/external.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="https://www.maaslandgroep.nl/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.www.maaslandgroep.nl';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = [];
+//]]>
+</script>
+<script type="text/javascript">var Translator = new Translate({"Please select an option.":"Selecteer a.u.b. een optie.","This is a required field.":"Dit is een verplicht veld.","Please enter a valid number in this field.":"Voer a.u.b. een geldig getal in dit veld in.","Please use numbers only in this field. Please avoid spaces or other characters such as dots or commas.":"Gebruik a.u.b. alleen getallen in dit veld, vermijd spaties of andere tekens zoals punten en komma\\'s.","Please use letters only (a-z) in this field.":"Gebruik uitsluitend letters (a-z) in dit veld.","Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens. Het eerste teken moet een letter zijn.","Please use only letters (a-z) or numbers (0-9) only in this field. No spaces or other characters are allowed.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens.","Please use only letters (a-z) or numbers (0-9) or spaces and # only in this field.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens.","Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.":"Geef a.u.b. een geldig telefoonnummer op. Bijvoorbeeld (123) 456-7889 of 123-456-7890","Please enter a valid date.":"Geef a.u.b. een geldige datum op.","Please enter a valid email address. For example johndoe@domain.com.":"Geef a.u.b. een geldig e-mailadres op. Bijvoorbeeld: iemand@domein.nl.","Please enter 6 or more characters.":"Geef meer dan 6 tekens op a.u.b.","Please make sure your passwords match.":"Zorg dat de wachtwoorden overeenkomen.","Please enter a valid URL. Protocol is required (https:\/\/, https:\/\/ or ftp:\/\/)":"Geef een geldige URL op. Protocol is vereist (https:\/\/, https:\/\/ or ftp:\/\/)","Please enter a valid URL. For example https:\/\/www.example.com or www.example.com":"Voer a.u.b. een geldige URL in. Bijvoorbeeld https:\/\/www.voorbeeld.com of www.voorbeeld.com.","Please enter a valid social security number. For example 123-45-6789.":"Geef a.u.b. een geldig Burger Service Nummer op. Bijvoorbeeld 123-45-6789.","Please enter a valid zip code. For example 90602 or 90602-1234.":"Voer een geldige postcode in a.u.b. Bijvoorbeeld: 2900 of 6621BK","Please enter a valid zip code.":"Geef een geldige postcode op.","Please use this date format: dd\/mm\/yyyy. For example 17\/03\/2006 for the 17th of March, 2006.":"Gebruik dd\/mm\/jjjj als datum-formaat. Bijvoorbeeld 17\/03\/2006 voor 17 maart 2006.","Please enter a valid $ amount. For example $100.00.":"Voer een geldig &euro; bedrag op. Bijvoorbeeld: &euro; 100.00.","Please select one of the above options.":"Selecteer a.u.b. \u00e9\u00e9n van de hierboven genoemde opties.","Please select one of the options.":"Selecteer a.u.b. \u00e9\u00e9n van de opties.","Please select State\/Province.":"Selecteer a.u.b. een provincie.","Please enter valid password.":"Voer een geldig wachtwoord in a.u.b.","Please enter 6 or more characters. Leading or trailing spaces will be ignored.":"Voer a.u.b. zes of meer tekens in. Spaties aan begin of eind zullen worden genegeerd.","Please use letters only (a-z or A-Z) in this field.":"Gebruik uitsluitend letters  (a-z en A-Z) in dit veld.","Please enter a number greater than 0 in this field.":"Voer in dit veld a.u.b. een getal groter dan 0 in.","Please enter a valid credit card number.":"Geef a.u.b. een geldig creditcard-nummer op.","Please wait, loading...":"Bezig met laden... Een ogenblikje a.u.b.","Please choose to register or to checkout as a guest":"Kiest u a.u.b. of u zich registreert of dat u als gast betaalt","Error: Passwords do not match":"Fout: wachtwoorden kloppen niet","Your order cannot be completed at this time as there is no shipping methods available for it. Please make necessary changes in your shipping address.":"Uw bestelling kan niet worden afgerond omdat er geen verzendmethodes voor beschikbaar zijn. Breng de nodige wijzingen aan in uw afleveradres a.u.b.","Please specify shipping method.":"Specificeer a.u.b. de verzendmethode.","Your order cannot be completed at this time as there is no payment methods available for it.":"Uw bestelling kan niet worden afgerond omdat er geen betaalmethodes voor beschikbaar zijn.","Please specify payment method.":"Specificeer a.u.b. de betaalmethode.","Credit card number does not match credit card type.":"Kaartnummer niet geldig voor Creditcard maatschappij","Card type does not match credit card number.":"Kaartnummer niet geldig voor Creditcard maatschappij","Please enter a valid credit card verification number.":"Geef a.u.b. een geldig creditcard-nummer op.","Please use only letters (a-z or A-Z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens.","Please input a valid CSS-length. For example 100px or 77pt or 20em or .5ex or 50%.":"Voer een geldige CSS-lengte in. Bijvoorbeeld 100px, 77pt of 50%.","Maximum length exceeded.":"Maximumlengte werd overschreden.","Your session has been expired, you will be relogged in now.":"Uw sessie is verlopen. U wordt nu opnieuw ingelogd.","Incorrect credit card expiration date.":"Onjuiste vervaldatum van creditcard.","This date is a required value.":"Datum is een verplicht veld.","The value is not within the specified range.":"De waarde is niet beschikbaar.","Please use only letters (a-z or A-Z) or numbers (0-9) only in this field. No spaces or other characters are allowed.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens.","Please use only letters (a-z or A-Z) or numbers (0-9) or spaces and # only in this field.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens.","Please enter a valid fax number. For example (123) 456-7890 or 123-456-7890.":"Geef a.u.b. een geldig faxnummer op. Bijvoorbeeld (123) 456-7889 of 123-456-7890","Please use only visible characters and spaces.":"Gebruik uitsluitend letters (a-z en A-Z) in dit veld. Gebruik geen spaties of andere tekens.","Please enter 7 or more characters. Password should contain both numeric and alphabetic characters.":"Voer a.u.b. zes of meer tekens in . Wachtwoorden moeten zowel numerieke en alfanumerieke tekens bevatten.","Please enter a valid XML-identifier. For example something_1, block5, id-4.":"Voer a.u.b. een geldige XML-identifier in. Bijvoorbeeld something_1, block5, id-4.","Please enter a number 0 or greater in this field.":"Voer in dit veld a.u.b. een getal gelijk aan of groter dan 0 in.","Text length does not satisfy specified text range.":"Tekstlengte komt niet overeen met de gespecificeerde lengte.","Please enter a number lower than 100.":"Voer in dit veld a.u.b. een getal lager dan 100 in.","Please enter issue number or start date for switch\/solo card type.":"Voer een geldig nummer of een geldige startdatum in voor het switch\/solo kaarttype.","Please enter a valid day (1-%d).":"Voer a.u.b. een geldige dag in (1-%d).","Please enter a valid month (1-12).":"Voer a.u.b. een geldige maand in (1-12).","Please enter a valid year (1900-%d).":"Voer a.u.b. een geldig jaartal in (1900-%d).","Please enter a valid full date":"Type aub een geldige volledige datum"});</script></head>
+<body class=" cms-index-index cms-home">
+
+<!-- BEGIN GOOGLE ANALYTICS CODE -->
+<script type="text/javascript">
+//<![CDATA[
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+
+    var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-4984692-1']);
+_gaq.push(['_trackPageview']);
+
+
+//]]>
+</script>
+<!-- END GOOGLE ANALYTICS CODE --><div class="wrapper">
+        <noscript>
+        <div class="noscript">
+            <div class="noscript-inner">
+                <p><strong>JavaScript is Gedeactiveerd in uw browser</strong></p>
+                <p>U moet JavaScript geactiveerd hebben om de volledige functionaliteit van deze website te kunnen benutten.</p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+        <div class="header-container">
+    <div class="header">
+                <h1 class="logo"><strong>Maasland Groep</strong><a href="https://www.maaslandgroep.nl/" title="Maasland Groep" class="logo"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo.gif" alt="Maasland Groep" /></a></h1>
+                <div class="quick-access">
+            <ul class="links">
+                        <li class="first" ><a href="https://www.maaslandgroep.nl/customer/account/" title="Mijn account" >Mijn account</a></li>
+                                <li ><a href="/leveringsvoorwaarden" title="Leveringsvoorwaarden" >Leveringsvoorwaarden</a></li>
+                                <li ><a href="https://www.maaslandgroep.nl/checkout/cart/" title="Mijn winkelwagen" class="top-link-cart">Mijn winkelwagen</a></li>
+                                <li ><a href="https://www.maaslandgroep.nl/onestepcheckout/" title="Afrekenen" class="top-link-onestepcheckout">Afrekenen</a></li>
+                                <li class=" last" ><a href="https://www.maaslandgroep.nl/customer/account/login/" title="Inloggen" >Inloggen</a></li>
+            </ul>
+            <form id="search_mini_form" action="https://www.maaslandgroep.nl/catalogsearch/result/" method="get">
+    <div class="form-search">
+        <input id="search" type="text" name="q" value="" class="input-text" />
+        <button type="submit" title="Zoeken" class="button"></button>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Zoek');
+            searchForm.initAutocomplete('https://www.maaslandgroep.nl/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
+    </div>
+</form>
+            <div class="menu">
+  <ul>
+    <li><a title="Home" href="/">Home</a></li>
+    <li><a title="Nieuws" href="/nieuws">Nieuws</a></li>
+    <li><a title="Onderneming" href="/onderneming">Onderneming</a></li>
+    <li><a title="Vacatures" href="/vacatures">Vacatures</a></li>
+    <li class="hide-mobile"><a title="RMA formulier" href="/contacts">RMA formulier</a></li>
+    <li><a title="Contact" href="/contact">Contact</a></li>
+    <li><a title="Cursussen" href="/cursussen">Cursussen</a></li>
+    <li><a title="Group" href="https://www.maaslandgroup.com/">Group</a></li>    
+  </ul>
+</div>        </div>        
+            </div>
+</div>
+
+
+<include href="{{ @inc }}" />
+
+
+    <div class="footer">
+    	<div class="logos">
+<a rel="external" class="logo" title="Bekijken in Appstore" href="https://itunes.apple.com/nl/app/maasland/id566341036?l=en&amp;mt=8" target="_blank"><img src="/cursussen/app_images/app-store.png" alt="Bekijk in Appstore" height="32px"></a>
+<a rel="external" class="logo" title="Bekijken in Play store" href="https://play.google.com/store/apps/details?id=com.maaslandgroup.catalog" target="_blank"><img src="/cursussen/app_images/google-play.png" alt="Bekijk in Play store" height="32px"></a>
+    		<a rel="external" class="logo" title="LinkedIn" href="http://www.linkedin.com/groups/Maasland-Groep-3783705?gid=3783705&amp;trk=hb_si" target="_blank"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-linkedin.gif" alt="LinkedIn"></a>
+    		<a rel="external" class="logo" title="YouTube" href="http://www.youtube.com/user/maaslandgroep#g/u" target="_blank"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-youtube.gif" alt="YouTube"></a>
+    		<a class="logo" title="ISO" href="http://www.maaslandgroep.nl/kwaliteit"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-iso.jpg" alt="ISO"></a>
+    		<a rel="external" class="logo" title="Vebon" href="http://www.vebon.org/" target="_blank"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-vebon.gif" alt="Vebon"></a>
+    		<a rel="external" class="logo" title="Erkend leverancier toegangscontrole" href="http://www.gekeurdenveilig.nl/" target="_blank"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-gev.gif" alt="Erkend leverancier toegangscontrole"></a>    		
+    		<a rel="external" class="logo" title="EZ-Base" href="http://www.ez-base.nl/" target="_blank"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-ezbase.gif" alt="EZ-Base"></a>
+    		<a rel="external" class="logo" title="2BA" href="http://www.2ba.nl/" target="_blank"><img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/logo-2ba.gif" alt="2BA"></a>
+    	</div>
+    	<!--<ul class="footer-buttons">    		    		
+    	        		<li><a href="/contacts">RMA formulier</a></li>
+    		<li class="aanbiedingen"><a href="/aanbiedingen">Aanbiedingen</a></li>
+    	</ul>!-->
+        <address>
+            <p>© Maasland Groep 2017</p>
+            <img src="https://www.maaslandgroep.nl/skin/frontend/default/maaslandgroep_responsive/images/footer-slogan.png">
+        </address>
+    </div>
+
+
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2cNAOEPM0toTo1Qne2AEFB6mybekrLHv';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->            </div>
+</div>
+</body>
+</html>

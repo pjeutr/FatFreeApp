@@ -1,0 +1,59 @@
+<script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+//http://api.jqueryui.com/datepicker/
+$(function(){
+	$( "#datepicker" ).datepicker({
+		dateFormat: "dd-mm-yy"
+	});
+});
+</script>
+
+<div class="page-title-wrapper">
+    <h1 class="page-title">
+        <span class="base" data-ui-id="page-title-wrapper">{{ isset(@POST.title)?'Edit':'New' }}</span>    </h1>
+    </div>
+    <div class="std">
+
+	<form method="post" action="{{ @BASE }}/admin/pages/exec" class="editor">
+		<input name="old_slug" type="hidden" size="50" {{ isset(@POST.slug)?('value="'.@POST.slug.'"'):'' }} />
+		<check if="{{ isset(@message) }}">
+		<p class="message">{{ @message }}</p>
+		</check>
+		<p>
+			<label for="title"><small>Title</small></label><br />
+			<input id="title" name="title" type="text" size="50" {{ isset(@POST.title)?('value="'.@POST.title.'"'):'' }} />
+		</p>
+		<p>
+			<label for="date"><small>Datum</small></label><br />
+			<input id="datepicker" name="updated" type="text" {{ !empty(@POST.updated)?('value="'.date(@time_format,@POST.updated).'"'):'' }} />
+		</p>
+		<p>
+			<label for="contents"><small>Contents</small></label><br />
+			<textarea id="contents" name="contents">{{ isset(@POST.contents)?@POST.contents:'' }}</textarea>
+			<script>CKEDITOR.replace( 'contents' );</script>
+		</p>
+            
+		<p>
+			<input id="available" name="available" type="checkbox" {{ isset(@POST.available) && @POST.available?'checked="checked"':'' }} value="1" /> <label for="available"><small>Geen plaats meer</small></label>
+		</p>
+		<p>
+			<input id="deleted" name="deleted" type="checkbox" {{ isset(@POST.deleted) && @POST.deleted?'checked="checked"':'' }} value="1" /> <label for="deleted"><small>Actief</small></label>
+		</p>
+
+		<p>
+			<button id="save" class="action primary" name="save"><span><span>Save</span></span></button>
+			<check if="{{ isset(@POST.updated) && @POST.updated }}">
+			<button id="erase" class="action primary" name="erase"><span><span>Erase</span></span></button>
+			</check>
+		</p>
+	</form>
+
+
+</div></div>
+<div class="homepage-news">
+	<include href="admin.htm" />
+</div>

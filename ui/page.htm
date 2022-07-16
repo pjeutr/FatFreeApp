@@ -1,0 +1,32 @@
+<div class="page-title-wrapper">
+    <h1 class="page-title">
+        <span class="base" data-ui-id="page-title-wrapper">{{ @page.title }}</span>    </h1>
+    </div>
+    <div class="std">
+
+	<p><small>
+<!--	Locale werkt niet, alleen engelse maanden
+	{{ @page.updated?date(@time_format2,@page.updated):'&nbsp;' }} 	
+-->
+	<check if="{{ @page.updated }}">
+		{{ '{0,date,long}',@page.updated | format }}
+	</check>
+	</small></p>
+	<div class="contents">
+		<p>{{ @page.contents | raw }}</p>
+	</div>
+
+<p>
+
+<check if="{{ @page.available==false }}">
+	<a href="mailto:training@maaslandgroep.nl?subject=Inschrijving - {{ @page.title }}&body=Graag schrijf ik me in voor {{ @page.title }} op {{ '{0,date,long}',@page.updated | format }}%0D%0A%0D%0ABedrijf : %0D%0AVoornaam : %0D%0AAchternaam : %0D%0AAdres : %0D%0APostcode : %0D%0APlaats : %0D%0ATelefoon : %0D%0AAantal deelnemers : %0D%0A%0D%0A%0D%0A">Inschrijven</a>
+</check>
+
+</p>
+
+</div></div>
+<div class="homepage-news">
+	<a href="{{ @BASE }}/">< Cursus overzicht</a>
+</div>
+
+

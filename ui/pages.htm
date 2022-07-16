@@ -1,0 +1,31 @@
+<div class="page-title-wrapper">
+    <h1 class="page-title">
+        <span class="base" data-ui-id="page-title-wrapper">Cursussen</span>    </h1>
+    </div>
+    <div class="std">
+
+	<table class="data-table">
+		<tr><th>
+			<form method="get" action="{{ @BASE }}/admin/pages/edit"><button 
+				class="action primary" name="new"><span><span>Toevoegen</span></span></button></form>
+		</th><th>Datum</th><th>Plaats</th><th>Actief</th><th>Volgorde</th></tr>
+
+		<set count="{{ count(@pages) }}" />
+		<repeat group="{{ @pages }}" value="{{ @page }}" counter="{{ @counter }}">
+		<tr {{ @counter%2?'class="odd"':'' }}>
+
+			<td class="title">
+				<a href="{{ @BASE }}/admin/pages/edit?slug={{ @page.slug }}">{{ @page.title }}</a></td>
+			<td>{{ @page.updated?date(@time_format,@page.updated):'&nbsp;' }}</td>
+			<td>{{ @page.available?'Vol':'Beschikbaar' }}</td>
+			<td>{{ @page.deleted?'Zichtbaar':'Verwijderd' }}</td>
+			<td><check if="{{ @counter>1 }}"><a href="{{ @BASE }}/admin/pages/move?slug={{ @page.slug }}&amp;vector=-1">&#9650;</a></check>
+			<check if="{{ @counter<@count }}"><a href="{{ @BASE }}/admin/pages/move?slug={{ @page.slug }}&amp;vector=1">&#9660;</a></check></td>
+		</tr>
+		</repeat>
+	</table>
+
+</div></div>
+<div class="homepage-news">
+	<include href="admin.htm" />
+</div>
